@@ -9,6 +9,8 @@ from housing_predictor.config import FIGURES_DIR, PROCESSED_DATA_DIR
 app = typer.Typer()
 
 
+# delete old template comments
+
 @app.command()
 def main(
     # ---- REPLACE DEFAULT PATHS AS APPROPRIATE ----

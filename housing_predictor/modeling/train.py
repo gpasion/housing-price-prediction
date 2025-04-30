@@ -2,6 +2,7 @@ from sklearn.linear_model import LinearRegression
 from sklearn.ensemble import RandomForestRegressor
 from sklearn.tree import DecisionTreeRegressor
 
+# add output of accuracy of these models into the terminal as a uncommentable portion of code
 
 def train_linear_regression(X, y):
     """Train a Linear Regression model."""

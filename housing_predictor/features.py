@@ -1,6 +1,8 @@
 from sklearn.preprocessing import MinMaxScaler
 import numpy as np
 
+# include what the minmaxscaler is doing
+
 def clean_data(df):
     """Drop missing values and standardize lot size units."""
     df = df.dropna().copy()
